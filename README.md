@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-# when rbenv command in your path (e.g. installed with Homebrew)
+# when rbenv command is in your path (e.g. installed with Homebrew)
 zinit ice wait"0" lucid
 zinit light htlsne/zinit-rbenv
 ```
