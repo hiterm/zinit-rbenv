@@ -14,8 +14,6 @@ or
 
 ```bash
 path=($HOME/.rbenv/bin(N-/) $path)
-if type rbenv > /dev/null 2>&1; then
-    zinit ice wait"0" lucid
-    zinit light htlsne/zinit-rbenv
-fi
+zinit ice wait"0" lucid has"rbenv"
+zinit light htlsne/zinit-rbenv
 ```
